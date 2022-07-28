@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+/* image slider start */
+
+.img-filter {
+    filter: brightness(40%);
+}
+
+/* image slider end */
+
 .navbar-brand-color {
     color: #4A4A4A;
 }
