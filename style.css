@@ -1,3 +1,14 @@
 * {
     box-sizing: border-box;
 }
+
+.btn-primary-color {
+    color: #289bde;
+    background-color: #FFFFFF;
+}
+
+.text-bg-primary-color {
+    color: #FFFFFF;
+    background-color: #289bde;
+    /* height: 250px; */
+}
