@@ -247,7 +247,6 @@
 
 
         <!-- register now section start -->
-
         <section class="container pb-5">
 
 
@@ -255,8 +254,9 @@
                 <div class="row h-100 ps-5">
                     <div class="col-lg-6 col-md-12 col-sm-12 my-auto p-5  border-dark">
                         <div class="">
-                            <h2 class="text-lg-start text-md-center text-center">Ready to join?</h2>
-                            <p class="text-lg-start text-md-center text-center">The platform provides our customers with
+                            <h2 class="text-white text-lg-start text-md-center text-center">Ready to join?</h2>
+                            <p class="text-white text-lg-start text-md-center text-center">The platform provides our
+                                customers with
                                 a streamlined registration process whilst our
                                 timing
                                 contractors rest easy knowing they are getting clean, reliable data.</p>
@@ -265,9 +265,31 @@
                     <div class="col-lg-3 col-md-0 col-sm-0">
 
                     </div>
-                    <div
-                        class="text-bg-primary-color col-lg-3 col-md-12 col-sm-12 my-auto text-lg-start text-md-center text-center p-5">
-                        <button class="btn btn-primary-color fw-bold " type="submit">Register Now</button>
+
+                    <div class=" col-lg-3 col-md-12 col-sm-12 my-auto text-lg-start text-md-center text-center p-5">
+                        <button class="btn btn-primary-color fw-bold" type="submit" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Register Now</button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Thank You For Click</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class=".text-secondary">Now please click <b>Close</b> to continue</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -286,16 +308,83 @@
             </div> -->
 
         </section>
-
         <!-- register now section end -->
 
 
         <!-- frequently ask questions section start -->
+        <section class="container pb-5">
 
-        <section>
+            <div class="w-75 mx-auto text-center">
+                <h1>Frequently Asked Questions</h1>
+                <p>A frequently asked questions (FAQ) list is often used in articles, websites, email lists, and online
+                    forums where common questions tend to recur
+                    , for example through posts or queries by new users related to common knowledge gaps.</p>
+            </div> <br>
 
+            <div class="accordion accordion-flush w-75 mx-auto" id="accordionFlushExample">
+                <div class="accordion-item border border-1">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <h5 class="fw-semibold">Difference Between Flexbox and Grid ?</h5>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The basic difference between CSS Grid Layout and CSS
+                            Flexbox Layout
+                            is that flexbox was designed for layout in one dimension - either a row or a column. Grid
+                            was designed for two-dimensional layout - rows, and columns at the same time.</div>
+                    </div>
+                </div> <br>
+                <div class="accordion-item border border-1">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <h5 class="fw-semibold">Difference Between Bootstrap and Tailwind?</h5>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Bootstrap comes with a set of pre-styled responsive, mobile-first
+                            components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to
+                            create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow
+                            the generic pattern that makes them look identical.</div>
+                    </div>
+                </div>
+                <br>
+                <div class="accordion-item border border-1">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <h5 class="fw-semibold">What is CSS Box Model?</h5>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The CSS box model is essentially a box that wraps around every HTML
+                            element. It consists of: margins, borders, padding, and the actual content. </div>
+                    </div>
+                </div>
+                <br>
+                <div class="accordion-item border border-1 ">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            <h5 class="fw-semibold">What is a Semantic Tag ?</h5>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The tags that provide meaning to an HTML page rather than just
+                            presentation. It makes HTML more comprehensible by better defining the different sections
+                            and layout of web pages.</div>
+                    </div>
+                </div>
+            </div>
         </section>
-
         <!-- frequently ask questions section end -->
     </main>
 
