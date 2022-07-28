@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+.navbar-brand-color {
+    color: #4A4A4A;
+}
+
+p {
+    color: #777777;
+}
+
 .btn-primary-color {
     color: #289bde;
     background-color: #FFFFFF;
